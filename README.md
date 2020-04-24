@@ -38,3 +38,5 @@ there is no need to complete these additional topics in any particular order.
 
 Finally, if you do not see any information on a topic that is of interest to
 you, feel free to request it.
+
+![Git Cheat Sheet](_meida/git-cheat-sheet.png)

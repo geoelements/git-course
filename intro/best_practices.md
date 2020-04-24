@@ -32,18 +32,43 @@ outputs. They are more appropriately stored on a cloud storage system.
 - Repositories should be intuitively organized (e.g., tests should be located in
 a `test` folder, source in a `src` folder). Follow the conventions provided by
 your coding language for organizing your projects. When naming directories do
-not use capital letters, spaces, and special characters.
+not use capital letters, spaces, and special characters. File names should be meaningful.
+Names such as `first analysis.txt`, `version2.txt`, `January2016.txt` should be avoided.
+If there are multiple folders each with it’s own input files or project, each folder must
+have a README describing the input files / code. 
 
 - Commit after completing a specific task (hour or two of coding). If you
 would describe your work with a commit message of "made various changes" then
 that commit should be broken across multiple commits where each commit should
-describe one and only one of the changes made.
+describe one and only one of the changes made. Always check if your code compiles
+without any errors before pushing.
 
 - Commit messages should be short and to the point. Prefer specific descriptions
 over general ones. To reduce boiler plate text such as "bug fix" prefer the use
 of an emoji such as :bug:. A list of useful emojis and what they mean are
-provided [here](https://jpvantassel.github.io/git-course/#/adv/emojis).
+provided [here](https://cb-geo.github.io/git-course/#/adv/emojis).
 
 - Use branches when developing prospective features or implementing breaking
 changes. Only merge these branches into `master` after the changes have been
 accepted for production and due notice has been provided to users.
+
+- Projects must have a `.gitignore` file, which should include standard temporary files.
+Customise your ignore file from a list of sample `.gitignore` file suitable for your project.
+[A collection of useful gitignore](https://github.com/github/gitignore). A typical example of
+a `.gitignore` file:
+  ```
+  *~*
+  *~*
+  *.DS_Store*
+  *.swp*
+  *.bak*
+  ```
+  
+- Avoid `.gitkeep` (which is not a git feature).
+
+- Avoid hosting large files in your git repository as it increases the time to download
+the repo. To remove any large files / bad data accidentally commited to the repo use
+[BFG repo cleaner](https://rtyley.github.io/bfg-repo-cleaner/). This is for cleansing
+`bad data` from your repository, such as large files and personal credentials.
+
+- Projects are encouraged to have unit tests and continous integrations: CircleCI, Travis CI or Jenkins.

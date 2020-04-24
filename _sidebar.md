@@ -1,4 +1,5 @@
 * Introductory Topics
+  * [What is Git](intro/git.md)
   * [Getting Started](intro/getting_started.md)
   * [Local Repositories](intro/local_repos.md)
   * [Remote Repositories](intro/remote_repos.md)
