@@ -2,7 +2,7 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/cb-geo/git-course/blob/master/LICENSE.md)
 
 Starting to manage your projects with `git` can be overwhelming. Answering
 simple questions such as "How often should I commit?" and "How should I organize

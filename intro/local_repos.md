@@ -2,7 +2,7 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/cb-geo/git-course/blob/master/LICENSE.md)
 
 ## Create a Local Repository
 
@@ -63,7 +63,7 @@ git log                                # Veiw commit along with its message
 _Note: The `:tada:` in the above commit message will render as an emoji on
 github. Developers use commit emojis to communicate what the commit was about,
 without using text. A listing of the commit emojis that I use in my projects is
-provided [here](https://jpvantassel.github.io/git-course/#/adv/emojis)._
+provided [here](https://cb-geo.github.io/git-course/#/adv/emojis)._
 
 ## Sources
 

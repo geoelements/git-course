@@ -2,7 +2,10 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/cb-geo/git-course/blob/master/LICENSE.md)
+
+
+[Start learning Git](https://cb-geo.github.io/git-course/)
 
 ## Overview
 
@@ -38,5 +41,3 @@ there is no need to complete these additional topics in any particular order.
 
 Finally, if you do not see any information on a topic that is of interest to
 you, feel free to request it.
-
-![Git Cheat Sheet](_meida/git-cheat-sheet.png)
