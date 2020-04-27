@@ -9,5 +9,4 @@
 
 * Advanced Topics
   * [Tags](adv/tags.md)
-  * [Commit Emojis](adv/emojis.md)
   * [Setting Up SSH Keys](adv/setting_up_ssh_keys.md)

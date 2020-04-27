@@ -72,3 +72,53 @@ the repo. To remove any large files / bad data accidentally commited to the repo
 `bad data` from your repository, such as large files and personal credentials.
 
 - Projects are encouraged to have unit tests and continous integrations: CircleCI, Travis CI or Jenkins.
+
+### Git commit messages
+
+* Use the present tense ("Add feature" not "Added feature")
+* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Limit the first line to 72 characters or less
+* Reference issues and pull requests liberally
+
+To make commit messages easier to understand (particularly when being viewed
+through the github web interface) emojis can be appended to the front of the
+message to signify universally understood coding practices, leaving the
+remainder of the message free for commit specific details.
+
+
+| Commit type                | Emoji                        | Syntax                        |
+|:---------------------------|:----------------------------:|:-----------------------------:|
+| Initial commit             | :tada:                       | `:tada:`                      |
+| Version tag                | :bookmark:                   | `:bookmark:`                  |
+| New feature                | :sparkles:                   | `:sparkles:`                  |
+| Bugfix                     | :bug:                        | `:bug:`                       |
+| Documentation              | :pencil:                     | `:pencil:`                    |
+| References                 | :books:                      | `:books:`                     |
+| Performance                | :racehorse:                  | `:racehorse:`                 |
+| Format changes             | :art:                        | `:art:`                       |
+| Tests                      | :rotating_light:             | `:rotating_light:`            |
+| Adding a test              | :dart:                       | `:dart:`                      |
+| Make a test pass           | :heavy_check_mark:           | `:heavy_check_mark:`          |
+| Refactor code              | :hammer:                     | `:hammer:`                    |
+| Adding CI build system     | :construction_worker:        | `:construction_worker:`       |
+| Continuous Integration     | :dart:                       | `:dart:`                      |
+| Security                   | :lock:                       | `:lock:`                      |
+| Work in progress           | :construction:               | `:construction:`              |
+| Removing a feature         | :heavy_minus_sign:           | `:heavy_minus_sign:`          |
+| Adding a feature           | :heavy_plus_sign:            | `:heavy_plus_sign:`           |
+| Upgrading dependencies     | :arrow_up:                   | `:arrow_up:`                  |
+| Downgrading dependencies   | :arrow_down:                 | `:arrow_down:`                |
+| Configuration files        | :wrench:                     | `:wrench:`                    |
+| Merging branches           | :twisted_rightwards_arrows:  | `:twisted_rightwards_arrows:` |
+| Reverting changes          | :rewind:                     | `:rewind:`                    |
+| Breaking changes           | :boom:                       | `:boom:`                      |
+| Removing code/files        | :fire:                       | `:fire:`                      |
+| Move/rename files/repo     | :truck:                      | `:truck:`                     |
+| New idea                   | :bulb:                       | `:bulb:`                      |
+| Performance improvements   | :rocket:                     | `:rocket:`                    |
+| Memory leaks               | :non-potable_water:          | `:non-potable_water:`         |
+| Closing issues/PRs         | :checkered_flag:             | `:checkered_flag:`            |
+| Security issue             | :lock:                       | `:lock:`                      |
+| Adding logging             | :speaker:                    | `:speaker:`                   |
+| Remove logging             | :mute:                       | `:mute:`                      |
+| Remove linter warnings     | :shirt:                      | `:shirt:`                     |
