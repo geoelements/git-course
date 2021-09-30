@@ -60,6 +60,14 @@ git remote set-url origin git@github.com:<USER>/<REPO>.git   # Switch to SSH
 git remote -v                                                # Note the change
 ```
 
+## Multiple SSH keys
+
+When you have multiple SSH keys on the same machine, you can specify which SSH key to use for a given repo. In the local repo:
+
+```bash
+git config --add --local core.sshCommand 'ssh -i <<<PATH_TO_SSH_KEY>>>'
+```
+This will use the specified ssh key to fetch/pull/push. Note: This applies to your _local repository only_.
 ## Sources
 
 [Why is Git always asking for my password?](https://help.github.com/en/articles/why-is-git-always-asking-for-my-password)
